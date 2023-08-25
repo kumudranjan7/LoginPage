@@ -1,0 +1,42 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#conatiner {
+  position: relative;
+}
+
+#container1 {
+  width: 20%;
+  height: 80%;
+  background-color: #6495ed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+#changelink {
+  text-align: center;
+  background-color: bisque;
+}
+.right {
+  text-align: right;
+}
+button {
+  border-radius: 90px;
+  margin-bottom: 100px ;
+}
